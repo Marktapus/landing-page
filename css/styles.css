@@ -1,0 +1,113 @@
+
+.background {
+    background-color: grey;
+    font-family: "Audiowide", sans-serif;
+    margin: 0px;
+    margin-top: 120px;
+}
+
+
+
+.logo {
+    min-width: 205px;
+    width: 250px;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 700;
+    border-radius: 25px;
+}
+
+.navbar {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    min-height: 80px;
+    background-color: lightgray;
+    flex-grow: 1;
+    flex-shrink: 1;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navborder {
+    justify-content: space-between; 
+    display: flex;
+}
+
+.buttons {
+    display: flex;
+}
+
+.button {
+    background-color: aliceblue;
+    width: 80px;
+    height: 50px;
+    padding: 20px;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.button-end {
+    background-color: aliceblue;
+    width: 80px;
+    height: 50px;
+    padding: 20px;
+    margin: 2px;
+    align-self: center;
+    justify-content: flex-end;
+    border-radius: 10px;
+
+}
+
+.container {
+    justify-content: space-between;
+    display: flex;
+    background-size: cover;
+
+}
+
+.single-item {
+    margin: 10px;
+    height: 800px;
+    background-color: aliceblue;
+    border-style: solid;
+    border-color: black;
+    flex-grow: 1;
+    min-width: 800px;
+    border-radius: 65px;
+}
+
+.single-item-two {
+    margin: 10px;
+    height: 800px;
+    background-color: aliceblue;
+    border-style: solid;
+    border-color: black;
+    flex-grow: 1;
+    min-width: 800px;
+    border-radius: 65px;
+}
+
+.item {
+    flex-shrink: 1;
+    min-width: 400px;
+    margin-top: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 80px;
+    width: 600px;
+    height: 400px;
+    background-color: aliceblue;
+    border-style: solid;
+    border-color: black;
+    border-radius: 65px;
+}
+
